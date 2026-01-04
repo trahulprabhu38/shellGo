@@ -7,6 +7,10 @@ import (
 	"strings"
 )
 
+func handlePrint() {
+	fmt.Println("testing new feature")
+}
+
 func handleEcho(args string) {
 	fmt.Println(args)
 }
