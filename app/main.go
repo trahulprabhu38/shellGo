@@ -8,7 +8,8 @@ import (
 )
 
 func handlePrint() {
-	fmt.Println("testing new feature")
+	fmt.Println("testing new ")
+
 }
 
 func handleEcho(args string) {
