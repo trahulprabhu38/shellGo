@@ -23,23 +23,23 @@ func handleType(cmd string) {
 		"type": true,
 	}
 
-	if builtins[cmd] {
-		fmt.Println(cmd + " is a shell builtin")
-	} else {
-		entries, err := os.ReadDir(".")
-		if err != nil {
-			panic(err)
-		}
+// 	if builtins[cmd] {
+// 		fmt.Println(cmd + " is a shell builtin")
+// 	} else {
+// 		entries, err := os.ReadDir(".")
+// 		if err != nil {
+// 			panic(err)
+// 		}
 
-		for _, entry := range entries {
-			if entry.Name == cmd {
+// 		for _, entry := range entries {
+// 			if entry.Name == cmd {
 
-			}
-		}
+// 			}
+// 		}
 
-		fmt.Println(cmd + ": not found")
-	}
-}
+// 		fmt.Println(cmd + ": not found")
+// 	}
+// }
 
 func main() {
 	reader := bufio.NewReader(os.Stdin)
