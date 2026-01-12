@@ -31,11 +31,11 @@ func handleType(cmd string) {
 			panic(err)
 		}
 
-		for _, entry := range entries {
-			if entry.Name == cmd {
+		// for _, entry := range entries {
+		// 	if entry.Name == cmd {
 
-			}
-		}
+		// 	}
+		// }
 
 		fmt.Println(cmd + ": not found")
 	}
