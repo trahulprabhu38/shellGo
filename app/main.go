@@ -37,7 +37,6 @@ func handleType(cmd string) {
 			}
 		}
 
-		fmt.Println("testing why this is not working!")
 		fmt.Println(cmd + ": not found")
 	}
 }
