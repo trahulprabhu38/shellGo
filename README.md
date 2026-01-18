@@ -37,3 +37,6 @@ $ exit
 ## Requirements
 
 - Go 1.25+
+
+fuckkkkk i didnt work on this today
+
