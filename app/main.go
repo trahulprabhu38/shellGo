@@ -41,6 +41,8 @@ func handleType(cmd string) {
 	}
 }
 
+//start asap
+
 func main() {
 	reader := bufio.NewReader(os.Stdin)
 
